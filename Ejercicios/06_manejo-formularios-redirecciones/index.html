@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+        }
+        h2{
+            text-align: center;
+        }
+        section{
+
+            margin-top: 20%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- <img src="https://cdn.shopify.com/shopifycloud/hatchful_web_two/bundles/4a14e7b2de7f6eaf5a6c98cb8c00b8de.png" alt="" width="60"> -->
+    </header>
+    <section>
+        <h2>Login</h2>
+
+        <form action="../06_manejo-formularios-redirecciones/src/pages/pagina2.html">
+            <fieldset>
+                <label for="Name">Nombre</label>
+                <br>
+                <input type="text">
+                <br/>
+                <label for="email">Correo Electronico</label>
+                <br>
+                <input type="email">
+                <br/>
+                <label for="date">Fecha</label>
+                <br>
+                <input type="date">
+                <br>
+                <label for="time">Hora</label>
+                <br>
+                <input type="time">
+                <br/>
+                <label for="dateHour">Fecha y hora</label>
+                <br/>
+                <input type="datetime-local">
+                <br/>
+                <label for="Number">Numero</label>
+                <br/>
+                <input type="number" min="-10" max="10">
+                <br/>
+                <input type="submit">
+                <button type="reset">reset</button>
+                <br>
+                <label for="color">Color Favorito</label>
+                <br/>
+                <input type="color">
+            </fieldset>
+
+        </form>
+    </section>
+    
+</body>
+</html>
