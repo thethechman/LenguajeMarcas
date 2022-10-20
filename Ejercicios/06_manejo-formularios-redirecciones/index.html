@@ -5,92 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Styles -->
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="./src/css/styles.css" type="text/css">
     <!-- /Styles -->
     <title>sing up</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Roboto&display=swap');
-        :root{
-            --primary-color:  rgba(56, 56, 56,.9);
-            --secundary-color:rgba(107, 107, 107,.6);
-            --logo-color: white;
-        }
-        body{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'roboto';
-            
-        }
-        main{
-            display: flex;
-            height: 100vh;
-            width: 100vw;
-        }
-        .card-left{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            width: 40vw;
-            
-        }
-        .card-left .logo{
-            margin: 0;
-            padding-top: 1rem;
-            font-family: 'Roboto', sans-serif;
-            text-transform: uppercase;
-            font-size: .9rem;
-            color: var(--logo-color);
-        }
-        .info{
-            width: 80%;
-            margin-top: 75px;
-            color: var(--logo-color);
-            font-weight: bold;
-            font-size: 1.5rem;
-            
-        }
-        .card-reviews{
-            width: 60%;
-        }
-        .card-reviews p{
-            font-weight: 500;
-            font-size: .7rem;
-            line-height: 1.2rem;
-            color: var(--logo-color);
-        }
-        .card-user{
-
-        }
-        
-        .card-img img{
-            width:60px;
-            height: 50px;
-        }
-        .card-right{
-            
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            width: 60vw;
-            background: var(--primary-color);
-            
-        }
-        .card-info{
-            padding: .9rem;
-            width: 85%;
-            height: 90%;
-            border-radius: 10px;
-            background: var(--secundary-color);
-        }
-        .card-login{
-            padding: 10px;
-            width: 80%;
-            height: 86%;
-            background: var(--secundary-color);
-        }
+       
     
 
     </style>
@@ -102,14 +21,13 @@
             <div class="card-info">
                 <h1 class="logo">daw<span>notes</span></h1>
                 <div class="info">
-                    <p>Busca apuntes de<br/> programacion, bases de datos, <br/> lenguajes de marcas,etc</p>
+                    <p>Busca apuntes de<br/> programacion</p>
+                    <p>Tenemos apuntes de bases de datos, lenguajes de marcas, sistemas informaticos, y mucho más ...</p>
                 </div>
                 <div class="card-reviews">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,  debitis! Lorem, ipsum dolor sit amet consectetur adipisici</p>
                     <div class="card-user">
-                        <figure class="card-img">
-                            <img src="https://cdn.pixabay.com/photo/2012/04/15/21/27/colombia-35364_640.png" alt="logo usuario">
-                        </figure>
+                        <img src="https://cdn.pixabay.com/photo/2012/04/15/21/27/colombia-35364_640.png" alt="logo usuario">
                         <div class="user">
                             <p>Andres Valencia</p>
                             <p>estudiante</p>
@@ -121,9 +39,11 @@
         </section>
         <section class="card-right">
             <div class="card-login">
-                <h2>sing up</h2>
-                <p>have an account</p>
-                <form action="./src/pages/pagina2.html" method="post">
+                <div class="wraper">
+                    <h2>sing up</h2>
+                    <p>Have an account</p>
+                </div>
+                <form action=".//pages/pagina2.html" method="post">
                     <div>
                         <label for="name">nombre</label>
                         <br>

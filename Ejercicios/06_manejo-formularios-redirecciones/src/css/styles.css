@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Roboto&display=swap');
+:root{
+    --primary-color:  rgba(8, 20, 90, 0.9);
+    --secundary-color:#005CE6;
+    --logo-color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+    
+}
+main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.card-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 40vw;
+    
+}
+.card-left .logo{
+    margin: 0;
+    padding-top: 1.5rem;
+    padding-left: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: .9rem;
+    color: var(--logo-color);
+}
+.info :nth-child(1){
+    width: 80%;
+    margin-top: 75px;
+    color: var(--logo-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.info p{
+    color: var(--logo-color);
+}
+.card-reviews{
+    background: var(--primary-color);
+    width: 75%;
+    height: 20%;
+    padding: 12px;
+    border-radius: 12px;
+}
+.card-reviews p{
+    font-weight: 500;
+    font-size: .7rem;
+    line-height: 1.2rem;
+    color: var(--logo-color);
+}
+.card-user{
+    display: flex;
+    height: auto;
+    margin-top: 50px;
+}
+
+.card-user img{
+    width:60px;
+    height: 50px;
+}
+.user{
+    padding-left: 5px;
+}
+.user p{
+    margin: 0;
+}
+.user p + p {
+    margin-top: 10px;
+}
+.card-right{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 60vw;
+    
+    
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .9rem;
+    width: 85%;
+    height: 90%;
+    border-radius: 10px;
+    background: var(--secundary-color);
+    
+}
+.card-login{
+    padding: 10px;
+    width: 80%;
+    height: 86%;
+    
+}
+.wrapper{
+    border-bottom: 5px solid black;
+    margin: 5px;
+}
